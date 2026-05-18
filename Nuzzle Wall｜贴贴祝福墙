@@ -1,0 +1,86 @@
+name: "🐱 Nuzzle Wall | Cat Blessing"
+description: "Share your cat photo and blessing with NuzzleMate."
+title: "🐾 [Cat Blessing] "
+labels: ["cat-blessing", "community", "nuzzle-wall"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for joining the **Nuzzle Wall** 🐱✨
+
+        Share a photo of your cat and write a small blessing for NuzzleMate.
+        Your submission will be publicly visible in this repository's Issues.
+
+        感谢你加入 **贴贴祝福墙** 🐾  
+        你可以上传自己的小猫照片，并为 NuzzleMate 写下一句祝福。  
+        请注意：提交内容会公开显示在本仓库的 Issues 中。
+
+  - type: input
+    id: cat_name
+    attributes:
+      label: "Cat's name | 小猫名字"
+      description: "What is your cat's name?"
+      placeholder: "e.g. Momo / 奶黄 / 芝士 / 小金豆"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: cat_type
+    attributes:
+      label: "Cat type | 小猫类型"
+      description: "Choose the type that best describes your cat."
+      options:
+        - British Shorthair Golden | 金渐层
+        - British Shorthair Silver | 银渐层
+        - Ragdoll | 布偶
+        - Domestic Shorthair | 中华田园猫
+        - Maine Coon | 缅因
+        - Persian | 波斯
+        - Siamese | 暹罗
+        - Other | 其他
+    validations:
+      required: false
+
+  - type: textarea
+    id: cat_photo
+    attributes:
+      label: "Cat photo | 小猫照片"
+      description: "Drag and drop your cat photo here, or paste an image link. You can also use Markdown image syntax."
+      placeholder: |
+        Drag and drop your cat photo here.
+        你可以把小猫照片直接拖到这个输入框里。
+    validations:
+      required: true
+
+  - type: textarea
+    id: blessing
+    attributes:
+      label: "Blessing for NuzzleMate | 给 NuzzleMate 的祝福"
+      description: "Write a short blessing, wish, or message."
+      placeholder: |
+        May every pet be healthy, loved, and gently protected.
+        愿每一只小猫小狗都被温柔守护，健康长大。
+    validations:
+      required: true
+
+  - type: textarea
+    id: story
+    attributes:
+      label: "A little story | 我和小猫的小故事"
+      description: "Optional. Tell us a small story about your cat."
+      placeholder: |
+        She loves sleeping beside my laptop while I code.
+        她喜欢在我写代码的时候趴在电脑旁边睡觉。
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: "Consent | 公开展示确认"
+      description: "Please confirm before submitting."
+      options:
+        - label: "I confirm that I have the right to share this photo, and I understand that this submission will be public."
+          required: true
+        - label: "我确认我有权分享这张照片，并理解该内容会公开展示在 GitHub Issues 中。"
+          required: true
