@@ -23,3 +23,14 @@ NuzzleMate is not designed to replace professional veterinarians. Instead, it st
 | 09 | [Requirement Priority & Goal Breakdown](docs/09_requirement_priority_and_goals.md) | MoSCoW prioritization, user goals, business goals, and data goals |
 | 10 | [Feature Architecture & Flow Logic](docs/10_feature_architecture_and_flow.md) | Core modules, business flows, user journeys, and system logic |
 | 11 | [Feasibility & Risk Analysis](docs/11_feasibility_and_risk.md) | Technical feasibility, resource feasibility, market risks, and mitigation plans |
+## 🐱 Nuzzle Wall | 贴贴祝福墙
+
+NuzzleMate is inspired by the warmth of a gentle nuzzle.  
+If you have a beloved cat, you are welcome to share a photo and leave a small blessing for this project.
+
+NuzzleMate 的名字来自一次温柔的贴贴。  
+如果你也有一只心爱的猫咪，欢迎上传它的照片，并为这个项目写下一句祝福。
+
+[![Share Your Cat Blessing](https://img.shields.io/badge/Share%20Your%20Cat%20Blessing-%F0%9F%90%B1-pink?style=for-the-badge)](https://github.com/1ASunny/NuzzleMate/issues/new?template=cat-blessing.yml)
+
+[View the Nuzzle Wall｜查看贴贴祝福墙](https://github.com/1ASunny/NuzzleMate/issues?q=is%3Aissue%20label%3Anuzzle-wall)
