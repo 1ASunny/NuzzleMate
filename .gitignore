@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+*.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+*.zip
+*.xlsx
+*.xls
+*.csv
+*.jsonl
+
+# Secrets
+*secret*
+*token*
+*password*
+*api_key*
+
+# OS
+.DS_Store
+Thumbs.db
