@@ -23,6 +23,13 @@ NuzzleMate is not designed to replace professional veterinarians. Instead, it st
 | 09 | [Requirement Priority & Goal Breakdown](docs/09_requirement_priority_and_goals.md) | MoSCoW prioritization, user goals, business goals, and data goals |
 | 10 | [Feature Architecture & Flow Logic](docs/10_feature_architecture_and_flow.md) | Core modules, business flows, user journeys, and system logic |
 | 11 | [Feasibility & Risk Analysis](docs/11_feasibility_and_risk.md) | Technical feasibility, resource feasibility, market risks, and mitigation plans |
+## 🐶 Dog Diagnosis Assistant Prototype
+
+This is an early prototype of NuzzleMate, focused on canine health Q&A, RAG-based knowledge retrieval, and LLM-assisted pet health triage.
+
+这是 NuzzleMate 的早期犬类健康问答原型，包含犬类健康问答、RAG 知识库检索和大模型辅助分诊能力。
+
+[Explore the prototype](prototypes/dog-diagnosis-assistant/)
 ## 🐱 Nuzzle Wall | 贴贴祝福墙
 
 NuzzleMate is inspired by the warmth of a gentle nuzzle.  
